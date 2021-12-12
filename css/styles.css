@@ -898,11 +898,15 @@ background-repeat: repeat-x;
 /************************/
 .slider-1 {
 	padding-top: 4.25rem;
-	padding-bottom: 21rem;
+	padding-bottom: 13rem;
 }
 
 .slider-1 .slider-container {
 	position: relative;
+}
+
+.slider-container h2{
+	padding-bottom: 2.5rem;
 }
 
 .slider-1 .swiper-container {
@@ -971,6 +975,10 @@ background-repeat: repeat-x;
 
 .form-1 .image-container {
 	margin-bottom: 3rem;
+}
+
+.form-1 .image-container img{
+	border-radius: 50px;
 }
 
 .form-1 h2 {
@@ -1381,7 +1389,7 @@ a:hover.back-to-top {
 
 	/* Testimonials */
 	.slider-1 {
-		padding-bottom: 14rem;
+		padding-bottom: 5rem;
 	}
 
 	.slider-1 .swiper-container {
