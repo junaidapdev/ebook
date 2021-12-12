@@ -954,11 +954,14 @@ background-repeat: repeat-x;
 
 .slider-1 .testimonial-text {
 	margin-bottom: 0.75rem;
+	font-family: 'Poppins',sans-serif;
 }
 
 .slider-1 .testimonial-author {
 	margin-bottom: 10rem;
 	color: #30363a;
+	font-family: 'Poppins',sans-serif;
+
 }
 
 
@@ -1037,7 +1040,7 @@ background-repeat: repeat-x;
 }
 
 .footer .fa-stack:hover .fa-stack-2x {
-    color: #10bcee;
+    color: #000;
 }
 
 /*********************/
