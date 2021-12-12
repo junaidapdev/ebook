@@ -108,6 +108,7 @@ h6 {
 a {
 	color: #585f63;
 	text-decoration: underline;
+	font-family: 'Poppins', sans-serif;
 }
 
 a:hover {
@@ -396,6 +397,106 @@ input[type='checkbox'] {
 /**********************/
 /*     Navigation     */
 /**********************/
+
+/* .gumroad-button{
+  
+background: url('https://gumroad.com/button/button_bar.jpg') ;
+color: #FFF;
+background-repeat: repeat-x;
+  background-size: contain;
+  color: #999;
+  font-size: 16px;
+  height: 50px;
+  line-height: 52px;
+  left: 50%;
+  margin-top: -25px;
+  margin-left: -90px;
+  padding: 0 15px;
+  position: absolute;
+  text-decoration: none;
+  top: 50%;
+  font-weight: 400;
+  background: #efefe9;
+}
+   */
+/* 
+.gumroad-button span{
+	block-size: inline;
+	
+    +inline-block()
+    background: url(https://gumroad.com/button/button_logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 17px;
+    width: 17px;
+    margin: -2px 15px 0 0;
+    
+} */
+
+
+/* CSS */
+.gumroad-button {
+  align-items: center;
+  background-color: #FFE16B;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: 'Poppins',sans-serif;
+  letter-spacing: -0.2px;
+  font-size: 23px;
+  font-weight: 700;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.gumroad-button:after {
+  background-color: #fff;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.gumroad-button:hover:after {
+  transform: translate(0, 0);
+}
+
+.gumroad-button:active {
+  background-color: #fff;
+  outline: 0;
+}
+
+.gumroad-button:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+	.gumroad-button {
+    padding: 0 40px;
+  }
+}
+
+
+
 .navbar {
 	background-color: #2b3041;
 	font-weight: 600;
@@ -540,6 +641,11 @@ input[type='checkbox'] {
 
 .header .image-container {
 	margin-bottom: 3rem;
+	border-radius: 66px;
+}
+
+.header .image-container img {
+	border-radius: 66px;
 }
 
 .header .h1-large {
