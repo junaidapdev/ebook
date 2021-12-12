@@ -498,7 +498,7 @@ background-repeat: repeat-x;
 
 
 .navbar {
-	background-color: #2b3041;
+	background-color: rgba(0, 0, 0, 0.5);
 	font-weight: 600;
 	font-size: 0.875rem;
 	line-height: 0.875rem;
@@ -517,7 +517,7 @@ background-repeat: repeat-x;
 
 .navbar .logo-text {
 	color: #ffffff;
-	font-weight: 700;
+	font-weight: 600;
 	font-size: 2rem;
 	line-height: 1rem;
 	text-decoration: none;
